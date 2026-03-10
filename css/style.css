@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+@font-face {
+  font-family: 'MinhaFonte';
+  src: url(../fonts/TheSkinny.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MinhaFonte1';
+  src: url(../fonts/Cornucopia\ of\ Ornaments.ttf) format('truetype');
+}
+
+
+body {
+  margin: 0;
+  
+}
+
+.header {
+  min-height: 100vh; 
+  background-color: #d7aac2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.img1{
+background-image: url(../img/FILMEFAVORITO.png);
+width: 415px;
+height: 412px;
+}
+
+.img1 h1 {
+  font-family: 'MinhaFonte1'; 
+  text-align: center;
+  margin-top: 40%;
+  color: pink;
+  font-size: 2em;
+}
+
+.img1 a{
+  text-decoration: none;
+}
+
+.img2{
+  background-image: url(../img/Artistafavorita.png);  
+  width: 415px;
+  height: 412px;
+}
+
+.img2 h1 {
+  font-family: 'MinhaFonte1'; 
+  text-align: center;
+  margin-top: 40%;
+  color: pink;
+  font-size: 3em;
+}
+
+.img2 a{
+  text-decoration: none;
+}
+
+
+.img3{
+  background-image: url(../img/atriz.png);
+ width: 415px;
+ height: 412px;
+}
+
+.img3 h1 {
+  font-family: 'MinhaFonte1'; 
+  text-align: center;
+  margin-top: 40%;
+  color: pink;
+  font-size: 3em;
+}
+
+.img3 a{
+  text-decoration: none;
+}
+
+
+
+@media (max-width: 968px) {
+  .container img {
+    width: 95%;   
+    height: auto;
+  }
+
+
+}
+
+
+    .balloon {
+      position: absolute;
+      bottom: -100px;
+      width: 60px;
+      height: 80px;
+      background: red;
+      border-radius: 50% 50% 50% 50%;
+      animation: rise 6s linear infinite;
+    }
+
+    .balloon::after {
+      content: '';
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      width: 2px;
+      height: 20px;
+      background: black;
+    }
+
+    @keyframes rise {
+      0% { transform: translateY(0); opacity: 1; }
+      100% { transform: translateY(-800px); opacity: 0; }
+    }

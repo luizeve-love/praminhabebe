@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+
+.container{
+    background-image: url(../video/download.gif);
+}
+
+@media (max-width: 968px) {
+
+    .container{
+        background-image: url(../video/MOBILE.gif);
+        height: 898px;
+    }
+}
+

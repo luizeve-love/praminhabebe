@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'MinhaFonte';
+  src: url(../fonts/Cornucopia\ of\ Ornaments.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MinhaFonte3';
+  src: url(../fonts/Tangerine_Bold.ttf) format('truetype');
+}
+
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.header{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1, p{
+    color: white;
+}
+
+
+
+
+.bloco1{
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco1 p{
+    font-family: 'MinhaFonte3';
+     line-height: 1.6;   
+  letter-spacing: 0.5px; 
+  font-size: 2em;
+}
+
+.bloco1 h1{
+    font-family: 'MinhaFonte';
+    text-align: center;
+    color: pink;
+}
+
+.bloco1 a{
+    text-decoration: none;
+    color:pink;
+}
+
+.bloco2 h1{
+    font-family: 'MinhaFonte';
+    text-align: center;
+    color: pink;
+}
+
+.bloco2 p{
+    font-family: 'MinhaFonte3';
+     line-height: 1.6;   
+  letter-spacing: 0.5px; 
+  font-size: 2em;
+}
+
+
+.bloco2 a{
+    text-decoration: none;
+    color:pink;
+}
+
+.bloco3 h1{
+    font-family: 'MinhaFonte';
+    text-align: center;
+    color: pink;
+}
+
+
+.bloco3 p{
+    font-family: 'MinhaFonte3';
+     line-height: 1.6;   
+  letter-spacing: 0.5px; 
+  font-size: 2em;
+}
+
+.bloco3 a{
+    text-decoration: none;
+    color:pink;
+}
+
+
+@media (max-width: 968px) {
+
+    .container img{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
