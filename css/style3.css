@@ -98,7 +98,18 @@ body {
     color:pink;
 }
 
+.bloco4 {
+    font-family: 'MinhaFonte';
+}
 
+.bloco4 h1{
+    color: red;
+}
+
+.bloco4 p{
+    font-family: 'MinhaFonte3';
+    font-size: 2em;
+}
 @media (max-width: 968px) {
 
     .container img{
